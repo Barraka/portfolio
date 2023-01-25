@@ -1,0 +1,64 @@
+.projectWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(99, 114, 128);
+    max-width: 400px;
+    box-shadow: 0px 5px 8px 4px rgb(56, 56, 56);
+}
+.projectScreenshot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectScreenshot img {
+    width: 100%;   
+}
+.projectFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(64,256,128);
+    width:100%;
+}
+.projectTitleWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.projectTitle {
+    flex:1;
+    padding: 3px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.projectLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    gap: 10px;
+    cursor: pointer;
+}
+.projectSVG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectSVG svg {
+    fill:#181616;
+}
+.projectSVG:hover svg {
+    fill: rgb(99, 114, 128);
+    /* stroke: white; */
+}
+.projectDescription {
+    padding: 15px 8px;
+}
